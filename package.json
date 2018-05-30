@@ -1,0 +1,37 @@
+{
+  "name": "",
+  "version": "",
+  "scripts" : {
+    "build" : "webpack --config webpack.config.js"
+  },
+  "dependencies": {
+    "bufferutil": "^3.0.3",
+    "chalk": "^2.1.0",
+    "compression": "^1.7.1",
+    "easy-profiler": "^2.0.0",
+    "emitter": "0.0.5",
+    "events": "^2.0.0",
+    "express": "^4.16.1",
+    "google-closure-compiler-js": "^20170910.0.1",
+    "gulp-nodemon": "^2.2.1",
+    "gulp-uglify": "^3.0.0",
+    "lz4": "^0.5.3",
+    "msgpack-lite": "^0.1.26",
+    "msgpack5": "^4.0.2",
+    "napajs": "^0.2.1",
+    "progress-bar-webpack-plugin": "^1.11.0",
+    "quad-node": "^1.0.5",
+    "request": "^2.87.0",
+    "snappyjs": "^0.6.0",
+    "ssl-root-cas": "^1.2.5",
+    "stack-trace": "0.0.10",
+    "stream": "0.0.2",
+    "tracegl": "0.0.1",
+    "utf-8-validate": "^4.0.0",
+    "uws": "^10.148.0",
+    "webpack": "^3.11.0",
+    "wrapper-webpack-plugin": "^1.0.0",
+    "ws": "^3.2.0",
+    "zlib": "^1.0.5"
+  }
+}

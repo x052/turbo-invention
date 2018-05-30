@@ -1,0 +1,51 @@
+
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="minimal-ui, width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <link rel="icon" type="image/x-icon" href="img/icon-blue.png">
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    <title>Space Web Game</title>
+</head>
+<body>
+    <script>
+      function e(){e=document.getElementById("overlay");e.innerHTML="<font size=\"20\">An error has occurred</font>"}
+      !function(b,h,a,x){h=b.createElement(h);x.onerror=e;h.rel=a;h.href=x;b=b.getElementsByTagName("script")[0];b.parentNode.insertBefore(h,b)}(document,"link","stylesheet","css/main.css")
+      !function(b,h,a,x){x=b.createElement(h);x.onerror=e;x.async=1;x.src=a;h=b.getElementsByTagName(h)[0];h.parentNode.insertBefore(x,h)}(document,"script","bundle.js?"+Date.now())
+    </script>
+    <div id="gameUiContainer">
+        <div id="leaderboardContainer">
+          <div id="leaderboardHeader">
+            Leaderboard
+          </div>
+          <div id="leaderboardList">
+            
+          </div>
+        </div>
+    </div>
+
+    <div id="menuContainer" style="display: flex;">
+      <div class="centerContent">
+        <div id="gameTitle">Space<span class='greyMenuText'>Web Game</span></div>
+          <div id="userInfoContainer">
+            <input type="text" id="userNameInput" spellcheck="false" placeholder="Nickname" maxlength="15" autofocus />
+            <button type="button" id="enterGameButton" onclick="spawn()">Play</button>
+          </div>
+          <div id="loadingContainer">
+          </div>
+          <div class="greyMenuText" id="instructionsText">
+          </div>
+
+          <div id="adblockerContainer">
+          </div>
+    
+          <!-- ADVERTISEMENT -->
+          <div id="adContainer">
+            <div id="adHolderDiv"><div id='cdm-zone-02'></div></div>
+          </div>
+    </div>
+</body>
+</html>

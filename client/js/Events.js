@@ -1,0 +1,2 @@
+window.Events = {}
+module.exports = {}
